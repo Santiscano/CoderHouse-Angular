@@ -1,0 +1,8 @@
+#content__bootstrap-cards{
+    margin-top: 20px;
+    width: 80vw;
+    gap:1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-auto-rows: auto;
+}
