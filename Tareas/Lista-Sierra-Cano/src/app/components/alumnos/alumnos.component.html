@@ -1,0 +1,9 @@
+<p>alumnos works!</p>
+
+
+
+<ol>
+    <li [ngClass]="listaAlumnos.length >= 3 ? 'long' : listaAlumnos.length >= 1 ? 'mid' : 'low' " *ngFor="let nombre of listaAlumnos">
+        {{ nombre }}
+    </li>
+</ol>
